@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model checkpoints / weights
+molecule-generation-main/weights/
+*.pt
+*.pth
+*.ckpt
+
+# Large datasets
+molecule-generation-main/chembl22_lipinski.csv
+molecule-generation-main/smiles.csv
+molecule-generation-main/train_prop.csv
+molecule-generation-main/valid_prop.csv
+
+# Training logs
+*.log
+
+# Generated results
+molecule-generation-main/results/
+
+# Generated analysis
+molecule-generation-main/analysis/
+
+# Generated plots in project root
+molecule-generation-main/*.png
+
+# Generated analysis files
+molecule-generation-main/training_metrics.csv
+molecule-generation-main/training_report.txt
+
+# Scalers / serialized data
+*.pkl
+
+# Backup/temp files
+*.bak
+*.test
+*~
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
