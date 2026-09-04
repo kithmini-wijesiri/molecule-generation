@@ -1,0 +1,43 @@
+=========================================
+Transformer VAE Training Report
+=========================================
+
+Experiment               : lat1_dec0
+Training log             : train_lat1_dec0.log
+Generation results       : results/generation_results_best_1.csv
+
+-----------------------------------------
+Training Summary
+-----------------------------------------
+Epochs trained           : 10
+Best epoch               : 8
+Best validation loss     : 31.5269
+
+-----------------------------------------
+Final Training Metrics
+-----------------------------------------
+Train loss               : 129.9879
+Train RCE                : 129.9441
+Train property loss      : 0.0000
+Train KL                 : 0.2192
+
+Validation loss          : 34.9530
+Validation RCE           : 34.9405
+Validation property loss : 0.0000
+Validation KL            : 0.0626
+
+-----------------------------------------
+Generation Metrics
+-----------------------------------------
+Generated molecules      : 100
+Valid molecules          : 84
+Validity                 : 0.840
+
+MW RMSE                  : 53.413
+MW MAE                   : 23.055
+
+LogP RMSE                : 0.701
+LogP MAE                 : 0.477
+
+TPSA RMSE                : 10.306
+TPSA MAE                 : 6.537

@@ -23,7 +23,6 @@ weights/
 
 # Generated results
 results/
-analysis/
 
 # Backup/test files
 *.bak
@@ -34,3 +33,8 @@ analysis/
 .idea/
 !training_metrics.csv
 *.test
+
+# Track all files inside analysis
+!analysis/
+!analysis/**/
+!analysis/**

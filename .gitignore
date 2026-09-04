@@ -22,7 +22,6 @@ molecule-generation-main/valid_prop.csv
 molecule-generation-main/results/
 
 # Generated analysis
-molecule-generation-main/analysis/
 
 # Generated plots in project root
 molecule-generation-main/*.png
