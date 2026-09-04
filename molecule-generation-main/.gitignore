@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Large datasets
+*.csv
+*.smi
+*.sdf
+
+# Training logs
+*.log
+*.out
+*.err
+
+# Model checkpoints / weights
+weights/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+
+# Generated results
+results/
+analysis/
+
+# Backup/test files
+*.bak
+
+# Environment/editor
+.DS_Store
+.vscode/
+.idea/
+!training_metrics.csv
+*.test
